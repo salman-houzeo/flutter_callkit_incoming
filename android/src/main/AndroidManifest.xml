@@ -18,6 +18,7 @@
             android:turnScreenOn="true"
             android:configChanges="orientation"
             android:exported="true"
+            android:showOnLockScreen="true"
             android:theme="@style/CallkitIncomingTheme">
             <intent-filter>
                 <action android:name="${applicationId}.com.hiennv.flutter_callkit_incoming.ACTION_CALL_INCOMING" />
